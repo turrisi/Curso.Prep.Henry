@@ -1,0 +1,21 @@
+° Variables.
+	Las variables son como contenedores en los que se pueden guardar diferentes datos, o información, para poder utilizar cuando sea necesario.
+	Estos "contenedores" son de diferentes formas (tipos) según lo que se necesite almacenar.
+	Pueden guardar texto (se llamarán 'strings'), números o ser del tipo "booleano", que quiere decir que pueden contener solo verdadero o falso.
+
+°Strings.
+	Un string no es más que una cadena de texto o caracteres que no tienen valor numérico ni booleano; de todas maneras tanto los números como
+	los valores verdadero y falso pueden ser un string si se los almacena de esa manera (entre comillas).
+	Los espacios, signos de puntuación y caracteres especiales también son parte de los strings.
+°Funciones
+	Las funciones son bloques de código que se utilizan frecuentemente y a las que se las llama o invoca por nombre (el que se le haya dado al crearse)
+	Generalmente, estas funciones necesitan argumentos, que es información que nosotros le tenemos que pasar al invocarlas, para que pueda ejecutar
+	el código que contiene.
+	Estas funciones devuelven el resultado del proceso que realizan mediante el comando "return", de manera que pueda utilizarse la nueva informacióm
+	como sea necesario.
+°IF
+	Las declaraciónes if son controladores de flujo. Esto significa que al utilizarlo podemos tener un control del proceso que realiza el código
+	evaluando la información que se le brinda. Aunque no nos demos cuenta, es un proceso que utilizamos todos los días en las decisiones
+	diarias ("SI tengo sed, tomo agua". "Si llueve, salgo con paraguas")
+°Valores Booleanos.
+	Son valores binarios. Esto quiere decir que solo pueden ser representados de dos formas: Verdadero - falso; 1-0.
