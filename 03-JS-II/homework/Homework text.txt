@@ -1,0 +1,20 @@
+° For.
+	For (del inglés 'para') es un comando para establecer ciclos en los que ciertos códigos se van a ejecutar. Esto significa que puedo repetir una acción varias veces. La cualidad 
+	particular del For es que se determina de antemano la cantidad de ciclos en la que se va a realizar esa acción. Contiene tres argumentos (siempre separados entre sí con ';'):
+	declaración de una variable (que sirve de control), condición que se debe cumplir para permanecer dentro del bucle y el incremento de la variable de control. De esta manera,
+	cada vez que se ejecute el código que está 'dentro' del for la variable aumenta y se vuelve a evaluar si se cumple la condición; cuando la evaluación de la variable es falsa (no 
+	se cumple) el ciclo termina.
+	Si yo tengo 'for (var num===0; num <=10; num++)', donde en cada ciclo la variable "num" se incrementará en uno (++), el código que se encuentra dentro del bucle se ejecutará
+	tantas veces como le tome a la variable llegar al valor establecido en la condición (10); en otras palabras, se ejecutará 11 veces, ya que ha sido iniciada en 0.
+
+°&&, ||, !
+	Son operadores lógicos. Se utilizan para haver comparaciones, o controles, en los controles de flujo (if, for, etc..); estas comparaciones arrojan como resultado 'true' o
+	 'false'.
+	&& es el operador conocido como 'Y' (AND) y para que arroje TRUE las dos partes de la operación deben ser verdaderas (1+1===2 && 2+2===4 --> verdadero);si ambas o una 
+	de ellas es falsa el resultado resultará FALSE (1+1===2 && 1+2===4 --> falso)
+	|| es el operador conocido como 'O' y para que arroje TRUE una de las dos partes, o ambas, debe ser verdadera (1+1 === 2 || 1+2===4 --> verdadero); si ambas son falsas el 
+	resultado será FALSE (1+2===2 || 1+2===4 ---> False)
+	! es el operador conocido como 'NO' (NOT) y devuelve siempre el resultado opuesto del que arroja la comparación. Esto significa que con él podemos preguntar "NO ES 
+	IGUAL" anteponiendolo a el operador de la igualdad (!==). Además se utiliza para 'negar' los resultados de las comparaciones de manera que si el resultado es TRUE arroje
+	FALSE ( !(1+1===2 && 2+2===4) --> falso)( !(1+2===2 || 1+2===4) --> verdadero).
+
