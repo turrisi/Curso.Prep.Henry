@@ -1,0 +1,37 @@
+° Arrays
+	Los arrays (arreglos) son colecciones o listas de datos ordenadas por la posición que ocupan dentro del mismo arreglo. Estos datos no necesitan ser del mismo tipo, y de hecho
+	pueden ser de cualquiera de los tipos de datos que se pueden manejar en el lenguaje. Pueden incluso contener funciones u otros arrays. Se puede extraer información guardada
+	en ellos haciendo una llamada al array junto con el número que indica la posición que ocupa este dato dentro de la lista (la primer posición siempre es 0). De la misma manera 
+	se puede utilizar una función guardada en el arreglo. Los arrays se definen con corchetes y se pueden cargar valores en la misma declaración como si fuera cualquier otra va-
+	riable, pero con corchetes :
+
+			var arreglo = [1, 2, 'Hola'];
+			console.log(arreglo);       ---> Esto mostrará [1, 2, 'Hola']
+	
+	En el ejemplo anterior, y teniendo en cuenta que el primer dato se encuentra en la posición 0, podría extraer cualquiera de los datos que se desee:
+
+			console.log(arreglo[1]);  ---> esto devolverá 2
+
+	Puedo reemplazar un dato específico:
+
+			arreglo[2]='chau';          ---> ahora en la última posición el dato almacenado será 'Chau'
+			console.log(arreglo);       ---> Esto mostrará [1, 2, 'chau']
+
+	Se puede agregar un dato al final de la lista utilizando la función 'Push':
+			
+			arreglo.push([10, 11, 12])---> en este caso nuestra lista tendrá una posición más, que estará ocupada por un nuevo array
+			console.log(arreglo)       ---> Esto mostrará [1, 2, 'chau', [10, 11, 12]]
+
+	Con otra función se puede leer lo que haya en l últma posición del arreglo y eliminarlo:
+			
+			console.log(arreglo.pop())--> Esto mostrará la cadena ingresada en el ejemplo anterior y la eliminará definitivamente.
+			console.log(arreglo)       ---> Esto mostrará [1, 2, 'chau']
+	También se puede agregar un dato al principio de la cadena:
+
+			arreglo.unshift(0);         ---> Aqui se ingresa el dato al principio de la cadena y se desplaza todo el contenido un lugar.
+			console.log(arreglo)        ---> Esto mostrará [0, 1, 2, 'chau']
+
+	Como con la función 'pop' tambien se puede eliminar el primer dato de la lista:
+
+			console.log(arreglo.shift()) ->Aqui se mostrará el primer dato de la cadena y lo eliminará.
+			console.log(arreglo)        ---> Esto mostrará [1, 2, 'chau']
