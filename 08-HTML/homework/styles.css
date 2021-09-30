@@ -1,0 +1,23 @@
+body{
+    background: url( 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbXIGZITionvJEaLoOYlEHPQadW-qlPUdBw&usqp=CAU' );
+}
+img{
+    width: 400px;
+}
+div{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: rgba(0, 204, 255, 0.534);
+    padding: 50px;
+    border: 4mm ridge rgba(184, 0, 0, 0.918);
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+    
+}

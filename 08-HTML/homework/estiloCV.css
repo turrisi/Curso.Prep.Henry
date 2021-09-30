@@ -1,0 +1,33 @@
+body{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4EP4a0ZRrQJWcGKAPPXvC-zOR6nxnqD8juQ&usqp=CAU");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    text-decoration-line: underline overline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: firebrick;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+h2{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 1px;
+}
+h4{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+.lista1{
+    list-style: square;
+}
+.lista2{
+    list-style: upper-roman;
+}
+.lista3{
+    list-style: disc;
+}
